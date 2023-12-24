@@ -9,7 +9,7 @@ The recommendation system is built using the Surprise library, which is a Python
 The system also uses GridSearchCV to find the best hyperparameters for the SVD algorithm, which is then used to train the model on the entire dataset.
 
 ## Data Source
-The data used in this project is sourced from Kaggle. The dataset contains detailed information about various books, including their titles, authors, publication year, and user ratings.
+The data used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Books.csv). The dataset contains detailed information about various books, including their titles, authors, publication year, and user ratings.
 
 ## Usage
 
@@ -36,3 +36,6 @@ The code is structured as follows:
 ## Future Work
 
 Future improvements to this system could include implementing more sophisticated recommendation algorithms, incorporating additional user and item features into the model, and building a user interface for interacting with the system.
+
+## Reference
+Mobius. (2021). Book Recommendation Dataset, Version 1. Retrieved March 19, 2023 from https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Books.csv
